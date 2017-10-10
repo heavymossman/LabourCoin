@@ -70,7 +70,7 @@
 			//creating an array of blocks on the chain, initialising with just the Genesis[Hardie] block in place
 
 			this.chain = [this.createHardieBlock()];
-			this.difficulty = 6; //settomg ot ,anually for now
+			this.difficulty = 5; //settomg ot ,anually for now
 		};
 
 		//This is the starting block of the chain and must always be created manually and during the initial coin creation = Gensis block = Hardie
